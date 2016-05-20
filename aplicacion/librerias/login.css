@@ -1,0 +1,146 @@
+.container .content .row .login-form{
+    background: transparent;
+}
+#Android{
+    left: 50%;
+    display: block;
+    height: 100px;
+    width: 150px;
+    position: relative;
+    background: url('Android.png'); 
+    z-index: 100;
+}
+
+body {
+    background: red;
+    height: 500px; 
+}
+
+
+/* The white background content wrapper */
+.container > .content { 
+    padding: 20px;
+    margin: 0 -20px; 
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    background: #eeeeee;  
+    border-bottom:silver solid 1px;  
+    background-image: -moz-linear-gradient(top, white, white);
+    background-image: -ms-linear-gradient(top, white, white);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(white));
+    background-image: -webkit-linear-gradient(top, white, white);
+    background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+    background-image: linear-gradient(top, #5bc0de, #2f96b4);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#2f96b4', GradientType=0); 
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+
+}
+
+.login-form {
+    margin-left: 65px;
+}
+
+legend {
+    margin-right: -50px;
+    font-weight: bold;
+    color: #404040;
+} 
+
+input[type="text"]
+{
+    height: 35px;
+}
+
+input[type="password"] 
+{
+    height: 35px;
+}
+input[type="submit"]
+{
+    height:40px;
+    width: 80px;
+}
+
+.error{
+    background-color: #93BC0C;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: black;
+    margin-left: 16px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+.error:before{
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #93BC0C;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+}
+
+#soloborde{
+    box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+} 
+
+.soloborde{
+    box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+} 
+
+#backUp{
+    z-index: 1;
+    top: 0px;
+    display: block;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(gold, white) repeat scroll 0% 0% gold;
+    background-color: gold;
+    background-image: linear-gradient(gold, white);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    border-bottom: 1px solid white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}

@@ -1,0 +1,26 @@
+.mostrar-mas {
+    text-align: center;
+    background-color: #D9EDF7;
+    border: 1px solid #BCE8F1;
+}
+.mostrar-mas a {
+    display: block;
+    padding: 5px 20px;
+}
+table  th{
+    height: 10px;
+    font-family:tahoma,verdana,arial;
+    font-size:11px;
+}
+
+#divFormulario{
+    height: 500px;
+    position:relative;
+    left: 50%;
+    width: 500px;
+    z-index: 4444;
+    background-color: #DBDBDB;
+    /*background: #; DBDBDB  eeeeee */
+    border: silver solid 1px;
+    font-family: verdana;
+}

@@ -1,0 +1,10 @@
+#detailMenu{
+    top: 10%;
+    padding-top: 0px;
+    display: none;
+    position: absolute; 
+    width: 100%; 
+    height: 90%;
+    z-index: 10; 
+}
+  

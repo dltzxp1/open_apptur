@@ -1,0 +1,108 @@
+#paginar{
+    position: absolute;
+    top: 85%;
+}
+
+#paginar2{
+    /*Sit Res*/
+    position: absolute;
+    top: 85%;
+}
+
+#controls {
+    width: 512px;
+}
+#controlToggle {
+    padding-left: 1em;
+}
+#controlToggle li {
+    list-style: none;
+}
+
+#map{ 
+    top:106%;
+    display: none; 
+    left:68%;
+    height: 76%;
+    width:30%;
+    position: absolute;
+    padding: 4px;
+} 
+
+.soloborde{
+    box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}  
+
+#soloborde{
+    box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px Rgba(0, 0, 0, 0.5);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}  
+
+.olControlAttribution {
+    font-size: smaller;
+    right: 3px;
+    bottom: 4.5em;
+    position: absolute;
+    display: block;
+}
+
+#head_map{
+    top:7%;
+    display: none; 
+    left:63%;height: 5%;
+    width:35%;
+    position: absolute;
+    padding: 5px; 
+}
+#img_map{
+    position: absolute;
+    left: 92%;
+    top: 1%; 
+    cursor: pointer;
+    width:25px;
+    height:25px;
+    border:0;
+}
+
+div.olControlMousePosition {
+    font-family: Verdana;
+    font-size: 3em;
+    color: white;
+    background: black;
+}
+
+.olControlEditingToolbar  {
+    float:left;
+    right: 0px;
+    height: 30px; 
+    width: 150px;
+}
+
+ 
